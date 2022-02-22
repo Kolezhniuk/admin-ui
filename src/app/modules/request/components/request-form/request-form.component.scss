@@ -1,0 +1,11 @@
+.request__form {
+  &__main, &__years, &__mileage, &__price{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  &__years, &__mileage, &__price {
+    justify-content: space-around;
+  }
+}
