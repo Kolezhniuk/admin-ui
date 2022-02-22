@@ -7,7 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgxsModule} from '@ngxs/store';
 import {environment} from 'src/environments/environment';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
-import {SharedModule} from './shared/shared.module';
+import {SharedModule} from './modules/shared/shared.module';
 import {NgxsReduxDevtoolsPluginModule} from '@ngxs/devtools-plugin';
 import {NgxsLoggerPluginModule} from '@ngxs/logger-plugin';
 import {SidebarComponent} from './components/sidebar/sidebar.component';
@@ -16,8 +16,10 @@ import {AuthComponent} from "./components/auth/auth.component";
 import {AuthState} from "./core/state/auth.state";
 import {AuthGuard} from "./core/guards/auth.guard";
 import {ReactiveFormsModule} from "@angular/forms";
-import {LoadingComponent} from './components/loading/loading.component';
+import {LoadingComponent} from './modules/shared/components/loading/loading.component';
 import {NgxsStoragePluginModule} from '@ngxs/storage-plugin';
+import { RequestModule } from './modules/request/request.module';
+import { MapModule } from './modules/map/map.module';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import {NgxsStoragePluginModule} from '@ngxs/storage-plugin';
     NgxsReduxDevtoolsPluginModule.forRoot(),
 
     NgxsLoggerPluginModule,
-    SharedModule
+    SharedModule,
+    RequestModule,
+    MapModule
   ],
   providers: [
     AuthGuard

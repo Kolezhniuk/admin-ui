@@ -17,6 +17,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "paths": {
+      "@app/components/*": ["app/components/*"],
+      "@app/core/*": ["app/core/*"],
+      "@app/shared/*": ["app/shared/*"],
+      "@app/material/*": ["app/material/*"],
+    },
     "module": "es2020",
     "lib": [
       "es2020",

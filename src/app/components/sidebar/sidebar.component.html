@@ -19,23 +19,23 @@
         </button>
 
       </mat-list-item>
-      <mat-list-item [routerLink]="['/requests']">
-        <a matLine>Requests</a>
-        <button mat-icon-button>
-          <mat-icon>file_upload</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item [routerLink]="['/favorites']">
-        <a matLine>Requests</a>
-        <button mat-icon-button>
-          <mat-icon>favorites</mat-icon>
-        </button>
-      </mat-list-item>
+      <!--      <mat-list-item [routerLink]="['/requests']">-->
+      <!--        <a matLine>Requests</a>-->
+      <!--        <button mat-icon-button>-->
+      <!--          <mat-icon>file_upload</mat-icon>-->
+      <!--        </button>-->
+      <!--      </mat-list-item>-->
+      <!--      <mat-list-item [routerLink]="['/favorites']">-->
+      <!--        <a matLine>Requests</a>-->
+      <!--        <button mat-icon-button>-->
+      <!--          <mat-icon>favorites</mat-icon>-->
+      <!--        </button>-->
+      <!--      </mat-list-item>-->
     </mat-nav-list>
     <div class="button">
       <button type="submit"
-              mat-button>Logout
-        (click)="logout()"
+              (click)="logout()"
+              mat-button> Logout
       </button>
     </div>
   </mat-sidenav>

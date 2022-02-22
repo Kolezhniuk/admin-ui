@@ -1,0 +1,16 @@
+.app__sidebar {
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  &__container {
+    display: flex;
+    padding: 0 6rem;
+
+    nav {
+      width: 100%;
+    }
+  }
+}
