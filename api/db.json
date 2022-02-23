@@ -1,9 +1,1056 @@
 {
-  "login": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "login": {
+    "userId": 1,
+    "token": "XlslxsslsxxpsQWWDMdcdcd++=xcscm"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "",
+      "userName": "dkol",
+      "email": "dkol@gmail.com"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "marks": [
+    {
+      "id": "",
+      "text": "Any"
+    },
+    {
+      "id": "1900",
+      "text": "Audi"
+    },
+    {
+      "id": "3500",
+      "text": "BMW"
+    },
+    {
+      "id": "17200",
+      "text": "Mercedes-Benz"
+    },
+    {
+      "id": "19000",
+      "text": "Opel"
+    },
+    {
+      "id": "22900",
+      "text": "Skoda"
+    },
+    {
+      "id": "25200",
+      "text": "Volkswagen"
+    },
+    {
+      "id": "140",
+      "text": "Abarth"
+    },
+    {
+      "id": "203",
+      "text": "AC"
+    },
+    {
+      "id": "375",
+      "text": "Acura"
+    },
+    {
+      "id": "800",
+      "text": "Aixam"
+    },
+    {
+      "id": "900",
+      "text": "Alfa Romeo"
+    },
+    {
+      "id": "1100",
+      "text": "ALPINA"
+    },
+    {
+      "id": "121",
+      "text": "Artega"
+    },
+    {
+      "id": "1750",
+      "text": "Asia Motors"
+    },
+    {
+      "id": "1700",
+      "text": "Aston Martin"
+    },
+    {
+      "id": "1900",
+      "text": "Audi"
+    },
+    {
+      "id": "2000",
+      "text": "Austin"
+    },
+    {
+      "id": "1950",
+      "text": "Austin Healey"
+    },
+    {
+      "id": "31863",
+      "text": "BAIC"
+    },
+    {
+      "id": "3100",
+      "text": "Bentley"
+    },
+    {
+      "id": "3500",
+      "text": "BMW"
+    },
+    {
+      "id": "3850",
+      "text": "Borgward"
+    },
+    {
+      "id": "4025",
+      "text": "Brilliance"
+    },
+    {
+      "id": "4350",
+      "text": "Bugatti"
+    },
+    {
+      "id": "4400",
+      "text": "Buick"
+    },
+    {
+      "id": "4700",
+      "text": "Cadillac"
+    },
+    {
+      "id": "112",
+      "text": "Casalini"
+    },
+    {
+      "id": "5300",
+      "text": "Caterham"
+    },
+    {
+      "id": "83",
+      "text": "Chatenet"
+    },
+    {
+      "id": "5600",
+      "text": "Chevrolet"
+    },
+    {
+      "id": "5700",
+      "text": "Chrysler"
+    },
+    {
+      "id": "5900",
+      "text": "Citroën"
+    },
+    {
+      "id": "6200",
+      "text": "Cobra"
+    },
+    {
+      "id": "6325",
+      "text": "Corvette"
+    },
+    {
+      "id": "3",
+      "text": "Cupra"
+    },
+    {
+      "id": "6600",
+      "text": "Dacia"
+    },
+    {
+      "id": "6800",
+      "text": "Daewoo"
+    },
+    {
+      "id": "7000",
+      "text": "Daihatsu"
+    },
+    {
+      "id": "7400",
+      "text": "DeTomaso"
+    },
+    {
+      "id": "31864",
+      "text": "DFSK"
+    },
+    {
+      "id": "7700",
+      "text": "Dodge"
+    },
+    {
+      "id": "255",
+      "text": "Donkervoort"
+    },
+    {
+      "id": "235",
+      "text": "DS Automobiles"
+    },
+    {
+      "id": "8600",
+      "text": "Ferrari"
+    },
+    {
+      "id": "8800",
+      "text": "Fiat"
+    },
+    {
+      "id": "172",
+      "text": "Fisker"
+    },
+    {
+      "id": "9000",
+      "text": "Ford"
+    },
+    {
+      "id": "205",
+      "text": "GAC Gonow"
+    },
+    {
+      "id": "204",
+      "text": "Gemballa"
+    },
+    {
+      "id": "9900",
+      "text": "GMC"
+    },
+    {
+      "id": "122",
+      "text": "Grecav"
+    },
+    {
+      "id": "186",
+      "text": "Hamann"
+    },
+    {
+      "id": "10850",
+      "text": "Holden"
+    },
+    {
+      "id": "11000",
+      "text": "Honda"
+    },
+    {
+      "id": "11050",
+      "text": "Hummer"
+    },
+    {
+      "id": "11600",
+      "text": "Hyundai"
+    },
+    {
+      "id": "11650",
+      "text": "Infiniti"
+    },
+    {
+      "id": "11900",
+      "text": "Isuzu"
+    },
+    {
+      "id": "12100",
+      "text": "Iveco"
+    },
+    {
+      "id": "12400",
+      "text": "Jaguar"
+    },
+    {
+      "id": "12600",
+      "text": "Jeep"
+    },
+    {
+      "id": "13200",
+      "text": "Kia"
+    },
+    {
+      "id": "13450",
+      "text": "Koenigsegg"
+    },
+    {
+      "id": "13900",
+      "text": "KTM"
+    },
+    {
+      "id": "14400",
+      "text": "Lada"
+    },
+    {
+      "id": "14600",
+      "text": "Lamborghini"
+    },
+    {
+      "id": "14700",
+      "text": "Lancia"
+    },
+    {
+      "id": "14800",
+      "text": "Land Rover"
+    },
+    {
+      "id": "14845",
+      "text": "Landwind"
+    },
+    {
+      "id": "15200",
+      "text": "Lexus"
+    },
+    {
+      "id": "15400",
+      "text": "Ligier"
+    },
+    {
+      "id": "15500",
+      "text": "Lincoln"
+    },
+    {
+      "id": "15900",
+      "text": "Lotus"
+    },
+    {
+      "id": "16200",
+      "text": "Mahindra"
+    },
+    {
+      "id": "16600",
+      "text": "Maserati"
+    },
+    {
+      "id": "16700",
+      "text": "Maybach"
+    },
+    {
+      "id": "16800",
+      "text": "Mazda"
+    },
+    {
+      "id": "137",
+      "text": "McLaren"
+    },
+    {
+      "id": "17200",
+      "text": "Mercedes-Benz"
+    },
+    {
+      "id": "17300",
+      "text": "MG"
+    },
+    {
+      "id": "30011",
+      "text": "Microcar"
+    },
+    {
+      "id": "17500",
+      "text": "MINI"
+    },
+    {
+      "id": "17700",
+      "text": "Mitsubishi"
+    },
+    {
+      "id": "17900",
+      "text": "Morgan"
+    },
+    {
+      "id": "18700",
+      "text": "Nissan"
+    },
+    {
+      "id": "18875",
+      "text": "NSU"
+    },
+    {
+      "id": "18975",
+      "text": "Oldsmobile"
+    },
+    {
+      "id": "19000",
+      "text": "Opel"
+    },
+    {
+      "id": "149",
+      "text": "Pagani"
+    },
+    {
+      "id": "19300",
+      "text": "Peugeot"
+    },
+    {
+      "id": "19600",
+      "text": "Piaggio"
+    },
+    {
+      "id": "19800",
+      "text": "Plymouth"
+    },
+    {
+      "id": "4",
+      "text": "Polestar"
+    },
+    {
+      "id": "20000",
+      "text": "Pontiac"
+    },
+    {
+      "id": "20100",
+      "text": "Porsche"
+    },
+    {
+      "id": "20200",
+      "text": "Proton"
+    },
+    {
+      "id": "20700",
+      "text": "Renault"
+    },
+    {
+      "id": "21600",
+      "text": "Rolls-Royce"
+    },
+    {
+      "id": "21700",
+      "text": "Rover"
+    },
+    {
+      "id": "125",
+      "text": "Ruf"
+    },
+    {
+      "id": "21800",
+      "text": "Saab"
+    },
+    {
+      "id": "22000",
+      "text": "Santana"
+    },
+    {
+      "id": "22500",
+      "text": "Seat"
+    },
+    {
+      "id": "22900",
+      "text": "Skoda"
+    },
+    {
+      "id": "23000",
+      "text": "Smart"
+    },
+    {
+      "id": "188",
+      "text": "speedART"
+    },
+    {
+      "id": "100",
+      "text": "Spyker"
+    },
+    {
+      "id": "23100",
+      "text": "Ssangyong"
+    },
+    {
+      "id": "23500",
+      "text": "Subaru"
+    },
+    {
+      "id": "23600",
+      "text": "Suzuki"
+    },
+    {
+      "id": "23800",
+      "text": "Talbot"
+    },
+    {
+      "id": "23825",
+      "text": "Tata"
+    },
+    {
+      "id": "189",
+      "text": "TECHART"
+    },
+    {
+      "id": "135",
+      "text": "Tesla"
+    },
+    {
+      "id": "24100",
+      "text": "Toyota"
+    },
+    {
+      "id": "24200",
+      "text": "Trabant"
+    },
+    {
+      "id": "24400",
+      "text": "Triumph"
+    },
+    {
+      "id": "24500",
+      "text": "TVR"
+    },
+    {
+      "id": "25200",
+      "text": "Volkswagen"
+    },
+    {
+      "id": "25100",
+      "text": "Volvo"
+    },
+    {
+      "id": "25300",
+      "text": "Wartburg"
+    },
+    {
+      "id": "113",
+      "text": "Westfield"
+    },
+    {
+      "id": "25650",
+      "text": "Wiesmann"
+    },
+    {
+      "id": "1400",
+      "text": "Другие"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "model": [
+    {
+      "id": 2,
+      "displayName": "100",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 3,
+      "displayName": "200",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 5,
+      "displayName": "80",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 6,
+      "displayName": "90",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 25,
+      "displayName": "A1",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 7,
+      "displayName": "A2",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 8,
+      "displayName": "A3",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 9,
+      "displayName": "A4",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 33,
+      "displayName": "A4 Allroad",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 31,
+      "displayName": "A5",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 10,
+      "displayName": "A6",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 12,
+      "displayName": "A6 Allroad",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 34,
+      "displayName": "A7",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 11,
+      "displayName": "A8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 13,
+      "displayName": "Cabriolet",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 14,
+      "displayName": "Coupé",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 50,
+      "displayName": "e-tron",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 43,
+      "displayName": "Q1",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 45,
+      "displayName": "Q2",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 37,
+      "displayName": "Q3",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 57,
+      "displayName": "Q4",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 32,
+      "displayName": "Q5",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 15,
+      "displayName": "Q7",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 46,
+      "displayName": "Q8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 16,
+      "displayName": "quattro",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 29,
+      "displayName": "R8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 26,
+      "displayName": "RS2",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 36,
+      "displayName": "RS3",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 27,
+      "displayName": "RS4",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 17,
+      "displayName": "RS5",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 28,
+      "displayName": "RS6",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 40,
+      "displayName": "RS7",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 41,
+      "displayName": "RSQ3",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 55,
+      "displayName": "RSQ8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 42,
+      "displayName": "S1",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 18,
+      "displayName": "S2",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 19,
+      "displayName": "S3",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 20,
+      "displayName": "S4",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 30,
+      "displayName": "S5",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 21,
+      "displayName": "S6",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 38,
+      "displayName": "S7",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 22,
+      "displayName": "S8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 47,
+      "displayName": "SQ2",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 39,
+      "displayName": "SQ5",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 44,
+      "displayName": "SQ7",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 54,
+      "displayName": "SQ8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": -38,
+      "displayName": "TT (alle)",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": true
+    },
+    {
+      "id": 23,
+      "displayName": "TT",
+      "groupId": {
+        "empty": false,
+        "present": true
+      },
+      "subModel": true,
+      "group": false
+    },
+    {
+      "id": 35,
+      "displayName": "TT RS",
+      "groupId": {
+        "empty": false,
+        "present": true
+      },
+      "subModel": true,
+      "group": false
+    },
+    {
+      "id": 4,
+      "displayName": "TTS",
+      "groupId": {
+        "empty": false,
+        "present": true
+      },
+      "subModel": true,
+      "group": false
+    },
+    {
+      "id": 24,
+      "displayName": "V8",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    },
+    {
+      "id": 1,
+      "displayName": "Другие",
+      "groupId": {
+        "empty": true,
+        "present": false
+      },
+      "subModel": false,
+      "group": false
+    }
+  ],
+  "car-type": [
+    {"id": "1", "name": "Cabriolet / Roadster"},
+    {"id": "1", "name": "Estate Car"},
+    {"id": "1", "name": "Saloon"},
+    {"id": "1", "name": "Small Car"},
+    {"id": "1", "name": "Coupe"},
+    {"id": "1", "name": "SUV / Off-road"},
+    {"id": "1", "name": "Minibus"}
+  ],
+  "car-type": [
+    {"id": "1", "name": "Cabriolet / Roadster"},
+    {"id": "1", "name": "Estate Car"},
+    {"id": "1", "name": "Saloon"},
+    {"id": "1", "name": "Small Car"},
+    {"id": "1", "name": "Coupe"},
+    {"id": "1", "name": "SUV / Off-road"},
+    {"id": "1", "name": "Minibus"}
+  ]
 }

@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import {User} from "../models/user";
+import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthService {
-  constructor() {
+export class MessageService {
+  constructor(private readonly snackBar: MatSnackBar) {
 
   }
 
@@ -17,6 +19,6 @@ export class AuthService {
     username: string;
     password: string;
   }): Observable<{ token: string }> {
-    return of({token: 'ssds'})
+    return of({token: 'secretToken', id: 1})
   }
 }
